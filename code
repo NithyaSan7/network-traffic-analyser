@@ -10,9 +10,9 @@ import asyncio
 
 stop_event = threading.Event()
 
-EMAIL_ADDRESS = "nithya1nt096@gmail.com"
-EMAIL_PASSWORD = "bazwnkazwgssuswt"
-RECIPIENT_ADDRESS = "nithya7446@gmail.com"
+EMAIL_ADDRESS = "YOUR MAIL"
+EMAIL_PASSWORD = "PASSWORD"
+RECIPIENT_ADDRESS = "RECIPIENT MAIL"
 ALERT_THRESHOLD = 100
 
 def send_email_alert(subject, body, to):
