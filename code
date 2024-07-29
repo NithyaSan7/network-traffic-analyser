@@ -75,7 +75,7 @@ def capture_packets(interface_name, pcap_file_path, capture_duration):
                     print("Network traffic is too much!")
                     alarm_triggered = True
                     messagebox.showwarning("Network Alarm", "Network traffic has exceeded the threshold!")
-                    send_email_alert("NETWORK ALARM", "Traffic exceeded the threshold", "6362382724@jio.ril.com")
+                    send_email_alert("NETWORK ALARM", "Traffic exceeded the threshold")
 
                 if elapsed_time >= capture_duration:
                     break
